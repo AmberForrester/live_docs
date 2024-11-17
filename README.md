@@ -72,7 +72,7 @@ Whether you are a solo user or a team......
 - [Shadcn/ui](https://ui.shadcn.com/)
 - [Node.js](https://nodejs.org/en)
 - [Tailwind CSS](https://tailwindcss.com/)
-- []() - Create an account to receive your  credentials, and create a new project.
+- [Clerk](https://clerk.com/) - Create an account to receive your  credentials, and create a new project.
 
 
 
@@ -108,6 +108,7 @@ Create a new file named `.env.local` in the root of your project directory and a
   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
   NEXT_PUBLIC_CLERK_SIGN_OUT_URL=/sign-out
 
+  NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=
   LIVEBLOCKS_SECRET_KEY=
    ```
 
@@ -135,6 +136,19 @@ This step will prevent the `.env.local` file from being tracked by Git and keep 
    ```
 
 2. Paste `http://localhost:3000` in your browser to view the project.
+
+<p align="right">(<a href="#readme-top">top of page</a>)</p>
+
+
+
+# Google Auth Sign-In
+<img src="/public/assets/images/GoogleAuthSignIn.png" alt="google auth sign in">
+
+# Manage User Access
+<img src="/public/assets/images/ManageAccess.png" alt="manage access">
+
+# Collaborative Editing in Real-Time
+<img src="/public/assets/images/RealTimeCollabEdits.png" alt="collab edits in real time">
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
