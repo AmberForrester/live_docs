@@ -6,7 +6,7 @@
 
 <img src="/public/assets/images/HomePage.png" alt="homepage">
 
-<p align="center">Inspired by Google Docs, LiveDocs was created to enhance the experience of collaboration in the world of editing!  
+<p align="center">LiveDocs is a powerful SaaS collaborative editor designed for seamless real-time collaboration. Built to replicate the intuitive functionality of Google Docs, it combines the latest web technologies to create an elegant, responsive, and efficient document editing experience.  
 <br/>
 <br/>
 Whether you are a solo user or a team......
@@ -72,7 +72,9 @@ Whether you are a solo user or a team......
 - [Shadcn/ui](https://ui.shadcn.com/)
 - [Node.js](https://nodejs.org/en)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Lexical Editor](https://lexical.dev/)
 - [Clerk](https://clerk.com/) - Create an account to receive your  credentials, and create a new project.
+- [Liveblocks](https://liveblocks.io/) - Create an account to receive your  credentials, and create a new project.
 
 
 
@@ -112,7 +114,7 @@ Create a new file named `.env.local` in the root of your project directory and a
   LIVEBLOCKS_SECRET_KEY=
    ```
 
-Use the key provided after creating your account and new project with [](). 
+Use the key provided after creating your accounts and new projects with [Clerk](https://clerk.com/) and [Liveblocks](https://liveblocks.io/). 
 
 5. **Add `.env.local` to `.gitignore`**
 
@@ -149,6 +151,9 @@ This step will prevent the `.env.local` file from being tracked by Git and keep 
 
 # Collaborative Editing in Real-Time
 <img src="/public/assets/images/RealTimeCollabEdits.png" alt="collab edits in real time">
+
+# Real-Time Notifications
+<img src="/public/assets/images/Notifications.png" alt="real time notifications">
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
