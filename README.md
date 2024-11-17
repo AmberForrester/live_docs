@@ -58,7 +58,7 @@ Whether you are a solo user or a team......
 
 ## Project Structure
 
-<img src="" alt="Picture of the project structure in Visual Studio Code">
+<img src="/public/assets/images/ProjectStructure.png" alt="Picture of the project structure in Visual Studio Code">
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
