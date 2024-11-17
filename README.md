@@ -45,7 +45,7 @@ Whether you're a writer, editor, or part of a collaborative team, LiveDocs empow
 ## Features
 - **Secure Authentication with Google:** Effortlessly sign in and out with Google using NextAuth, ensuring robust session management and top tier security for all users.
 - **Real-Time Collaborative Text Editor:** Experience seamless collaboration as multiple users edit the same document simultaneously with instant updates powered by Liveblocks.
-- **Comprehensive Data Management:** CRUD operations with style - 
+- **Comprehensive Data Management:**
   - Create New Documents: Quickly start fresh with auto-saved documents, ready to access anytime.
   - Delete New Documents: Maintain control by removing documents you own.
   - Share with flexibility: Share documents via email or link with customizable view and edit permissions.
