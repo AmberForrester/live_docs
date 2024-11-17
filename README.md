@@ -9,7 +9,7 @@
 <p align="center">LiveDocs is a powerful SaaS collaborative editor designed for seamless real-time collaboration. Built to replicate the intuitive functionality of Google Docs, it combines the latest web technologies to create an elegant, responsive, and efficient document editing experience.  
 <br/>
 <br/>
-Whether you are a solo user or a team......
+Whether you're a writer, editor, or part of a collaborative team, LiveDocs empowers you to create, share, and collaborate with ease!
 <br />
 
 <!-- <a href="www.livedocs.amberforrester.io">LiveDocs Live Link</a> -->
