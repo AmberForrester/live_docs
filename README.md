@@ -43,14 +43,17 @@ Whether you're a writer, editor, or part of a collaborative team, LiveDocs empow
 
 
 ## Features
-- **Secure User Authentication with Appwrite:** Enable easy signup, login, and logout functions powered by Appwrite’s robust authentication system for a safe user experience.
-- **Effortless File Uploads:** Upload various file types—documents, images, videos, and audio—seamlessly, ensuring all your important data is securely stored.
-- **Comprehensive File Management:** Automatically saves summaries in your local storage, allowing you to access and manage your reading history effortlessly. 
-- **Simple File Sharing:** Share uploaded files effortlessly, fostering collaboration and granting others easy access to vital content.
-- **Insightful Dashboard Overview:** Get a quick overview of your storage with a dynamic dashboard displaying total and consumed storage, recent uploads, and a categorized file summary.
-- **Advanced Global Search:** Find files and shared content across the platform swiftly with an enhanced global search feature for quick access.
-- **Flexible Sorting Options:** Organize files by date, name, or size, ensuring smooth and efficient file management tailored to your needs.
-- **Modern, Responsive Design:** Enjoy a clean, minimalist UI that prioritizes usability, offering a seamless experience across all devices.
+- **Secure Authentication with Google:** Effortlessly sign in and out with Google using NextAuth, ensuring robust session management and top tier security for all users.
+- **Real-Time Collaborative Text Editor:** Experience seamless collaboration as multiple users edit the same document simultaneously with instant updates powered by Liveblocks.
+- **Comprehensive Data Management:** CRUD operations with style - 
+  - Create New Documents: Quickly start fresh with auto-saved documents, ready to access anytime.
+  - Delete New Documents: Maintain control by removing documents you own.
+  - Share with flexibility: Share documents via email or link with customizable view and edit permissions.
+  - Organized Document Listings: Access owned or shared documents view and edit permissions. 
+- **In-Context Commenting:** Add inline or general comments with threaded discussions, foserting effective collaboration and feedback.
+- **Live Collaboration Indicators:** See your team in action with real-time presence indicators, showing active collaborators directly within the editor.
+- **Intelligent Notifications:** Stay informed with instant updates on document shares, new comments, and collaborator activities, keeping everyone in sync.
+- **Fully Responsive Design:** Enjoy a seamless experience across devices, from desktop to mobile, ensuring productivity anywhere, anytime.
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
