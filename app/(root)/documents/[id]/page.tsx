@@ -8,26 +8,26 @@ import { redirect } from "next/navigation";
 // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
 const Document = async ({ params: { id } }: SearchParamProps) => {
   const clerkUser = await currentUser();
-  if(!clerkUser) redirect('/sign-in');
+  if(!clerkUser) redirect("/sign-in");
 
   const room = await getDocument({
     roomId: id,
     userId: clerkUser.emailAddresses[0].emailAddress,
   });
 
-  if(!room) redirect('/');
+  if(!room) redirect("/");
 
   const userIds = Object.keys(room.usersAccesses);
   const users = await getClerkUsers({ userIds });
 
   const usersData = users.map((user: User) => ({
     ...user,
-    userType: room.usersAccesses[user.email]?.includes('room:write')
-      ? 'editor'
-      : 'viewer'
+    userType: room.usersAccesses[user.email]?.includes("room:write")
+      ? "editor"
+      : "viewer"
   }))
 
-  const currentUserType = room.usersAccesses[clerkUser.emailAddresses[0].emailAddress]?.includes('room:write') ? 'editor' : 'viewer';
+  const currentUserType = room.usersAccesses[clerkUser.emailAddresses[0].emailAddress]?.includes("room:write") ? "editor" : "viewer";
 
   return (
     <main className="flex w-full flex-col items-center">

@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React, { useState } from 'react'
-import UserTypeSelector from './UserTypeSelector';
-import { Button } from './ui/button';
-import { removeCollaborator, updateDocumentAccess } from '@/lib/actions/room.actions';
+import Image from "next/image";
+import React, { useState } from "react"
+import UserTypeSelector from "./UserTypeSelector";
+import { Button } from "./ui/button";
+import { removeCollaborator, updateDocumentAccess } from "@/lib/actions/room.actions";
 
 
 
