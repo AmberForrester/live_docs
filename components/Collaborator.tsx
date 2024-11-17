@@ -64,9 +64,9 @@ const Collaborator = ({ roomId, creatorId, collaborator, email, user }: Collabor
         ): (
             <div className="flex items-center">
                 <UserTypeSelector 
-                    userType={userType as userType}
-                    setUserType={setUserType || "viewer"}
-                    onClickHandler={shareDocumentHandler}
+                    userType={userType}
+                    setUserType={setUserType}
+                    onClickHandler={(type: string) => shareDocumentHandler(type)}
                 />
                 <Button type="button" onClick={() => removeCollaboratorHandler(collaborator.email)}>
                     Remove
