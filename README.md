@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="" alt="">
+<img src="/public/assets/images/HomePage.png" alt="homepage">
 
 <p align="center">Inspired by Google Docs, LiveDocs was created to enhance the experience of collaboration in the world of editing!  
 <br/>
@@ -12,16 +12,16 @@
 Whether you are a solo user or a team......
 <br />
 
-<a href="www.livedocs.amberforrester.io">LiveDocs Live Link</a>
+<!-- <a href="www.livedocs.amberforrester.io">LiveDocs Live Link</a> -->
 
 
 
 <br />
 <a href="https://github.com/AmberForrester/live_docs">Source Code</a>
 .
-<a href="https://github.com/AmberForrester/store_it/issues/new?assignees=&labels=bug&projects=&template=bug-report-%F0%9F%90%9E.md&title=">Report Bug</a>
+<a href="https://github.com/AmberForrester/live_docs/issues/new?assignees=&labels=bug&projects=&template=bug-report-%F0%9F%90%9E.md&title=">Report Bug</a>
 .
-<a href="https://github.com/AmberForrester/store_it/issues/new?assignees=&labels=enhancement&projects=&template=feature-request-%F0%9F%9A%80.md&title=">Request Feature</a>
+<a href="https://github.com/AmberForrester/live_docs/issues/new?assignees=&labels=enhancement&projects=&template=feature-request-%F0%9F%9A%80.md&title=">Request Feature</a>
 </p>
 </div>
 
@@ -173,6 +173,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Please take some time to check out the links below! I found value in each and every one of them while creating this project, so my hope is that you will to!
 
 * [Google Docs Inspired project with Next.js 15](https://youtu.be/y5vE8y_f_OM?si=Ht2t95c5B0xghWUR) - Special thank you to _JavaScript Mastery_ for the tutorial!
+* [ID Token Permissions with Next.js](https://liveblocks.io/docs/authentication/id-token/nextjs)
 * [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * [Basic Syntax: Markdown Guide](https://www.markdownguide.org/basic-syntax/#reference-style-links)
 * [Formatting Syntax: GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
@@ -180,33 +181,3 @@ Please take some time to check out the links below! I found value in each and ev
 * [GitHub Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#animal-bug)
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://liveblocks.io/docs/authentication/id-token/nextjs
