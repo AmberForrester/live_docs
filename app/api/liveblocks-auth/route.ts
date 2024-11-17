@@ -5,13 +5,14 @@ import { redirect } from "next/navigation";
 
 
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function POST(request: Request) {
     const clerkUser = await currentUser();
 
-    //console.log(request);
+    console.log(request);
 
-    if(!clerkUser) redirect("/sign-in");
+    if(!clerkUser) {
+      redirect("/sign-in");
+    }
 
     const { id, firstName, lastName, emailAddresses, imageUrl } = clerkUser;
 
@@ -19,9 +20,9 @@ export async function POST(request: Request) {
     id,
     info: {
         id,
-        name: `${firstName} ${lastName}`,
-        email: emailAddresses[0].emailAddress,
-        avatar: imageUrl,
+        name: `${firstName ?? ""} ${lastName ?? ""}`,
+        email: emailAddresses?.[0]?.emailAddress ?? "unknown@example.com",
+        avatar: imageUrl ?? "",
         color: getUserColor(id),
     }
   }
