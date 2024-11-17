@@ -10,6 +10,7 @@ import { Input } from "./ui/input";
 import Image from "next/image";
 import Loader from "./Loader";
 import { updateDocument } from "@/lib/actions/room.actions";
+import ShareModal from "./ShareModal";
 
 
 
