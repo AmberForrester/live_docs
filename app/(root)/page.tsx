@@ -1,4 +1,5 @@
 import AddDocumentBtn from "@/components/AddDocumentBtn";
+import { DeleteModal } from "@/components/DeleteModal";
 import Header from "@/components/Header";
 import { getDocuments } from "@/lib/actions/room.actions";
 import { dateConverter } from "@/lib/utils";
@@ -38,6 +39,7 @@ const Home = async () => {
           </div>
 
           <ul className="document-ul">
+            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
             {roomDocuments.data.map(({ id, metadata, createdAt }: any) => (
               <li key={id} className="document-list-item">
                 <Link href={`/documents/${id}`} className="flex flex-1 items-center gap-4">
@@ -56,7 +58,7 @@ const Home = async () => {
                   </div>
                 </Link>
 
-                {/* TODO: Add the delete button here. */}
+                <DeleteModal roomId={id} />
               </li>
             ))}
           </ul>
