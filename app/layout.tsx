@@ -6,11 +6,12 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import Provider from "./Provider";
 
+
+
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 })
-
 
 export const metadata: Metadata = {
   title: "LiveDocs",

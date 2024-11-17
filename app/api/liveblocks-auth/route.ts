@@ -15,7 +15,6 @@ export async function POST(request: Request) {
 
     const { id, firstName, lastName, emailAddresses, imageUrl } = clerkUser;
 
-  // Get the current user from database
   const user = {
     id,
     info: {
@@ -26,8 +25,7 @@ export async function POST(request: Request) {
         color: getUserColor(id),
     }
   }
-
-  // Identify the user and return the result
+  
   const { status, body } = await liveblocks.identifyUser(
     {
       userId: user.info.email,

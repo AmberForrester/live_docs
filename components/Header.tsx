@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 
+
 const Header = ({ children, className }: HeaderProps) => {
   return (
     <div className={cn("header", className)}>

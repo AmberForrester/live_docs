@@ -11,6 +11,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 
 
+
 const Home = async () => {
   const clerkUser = await currentUser();
 

@@ -36,6 +36,8 @@ import {
   useSyncExternalStore,
 } from "react";
 
+
+
 const LowPriority = 1;
 
 function Divider() {
@@ -56,7 +58,6 @@ export default function ToolbarPlugin() {
   const $updateToolbar = useCallback(() => {
     const selection = $getSelection();
     if ($isRangeSelection(selection)) {
-      // Update text format
       setIsBold(selection.hasFormat("bold"));
       setIsItalic(selection.hasFormat("italic"));
       setIsUnderline(selection.hasFormat("underline"));
@@ -73,6 +74,7 @@ export default function ToolbarPlugin() {
       }),
       editor.registerCommand(
         SELECTION_CHANGE_COMMAND,
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         (_payload, _newEditor) => {
           $updateToolbar();
           return false;

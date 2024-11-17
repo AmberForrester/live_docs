@@ -7,6 +7,7 @@ import { ClientSideSuspense, LiveblocksProvider } from "@liveblocks/react/suspen
 import { ReactNode } from "react";
 
 
+
 const Provider = ({ children }: { children: ReactNode }) => {
   const { user: clerkUser } = useUser();
 
