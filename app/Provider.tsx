@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import Loader from "@/components/Loader";
 import { getClerkUsers, getDocumentUsers } from "@/lib/actions/user.actions";
@@ -38,6 +38,6 @@ const Provider = ({ children }: { children: ReactNode }) => {
       </ClientSideSuspense>
   </LiveblocksProvider>
   )
-};
+}
 
-export default Provider;
+export default Provider

@@ -75,6 +75,6 @@ const Collaborator = ({ roomId, creatorId, collaborator, email, user }: Collabor
         )}
     </li>
   )
-};
+}
 
-export default Collaborator;
+export default Collaborator

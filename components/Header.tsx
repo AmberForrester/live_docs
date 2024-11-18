@@ -33,4 +33,4 @@ const Header = ({ children, className }: HeaderProps) => {
   )
 }
 
-export default Header;
+export default Header

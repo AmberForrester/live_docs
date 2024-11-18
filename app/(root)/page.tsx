@@ -84,6 +84,6 @@ const Home = async () => {
       )}
     </main>
   )
-};
+}
 
-export default Home;
+export default Home

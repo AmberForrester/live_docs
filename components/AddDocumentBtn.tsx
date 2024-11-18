@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import Image from "next/image";
 import { Button } from "./ui/button";
@@ -36,6 +36,6 @@ const AddDocumentBtn = ({ userId, email }: AddDocumentBtnProps) => {
         </p>
     </Button>
   )
-};
+}
 
-export default AddDocumentBtn;
+export default AddDocumentBtn

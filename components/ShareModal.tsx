@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import {
     Dialog,
@@ -112,6 +112,6 @@ const ShareModal = ({ roomId, collaborators, creatorId, currentUserType }: Share
         </DialogContent>
     </Dialog>
   )
-};
+}
 
-export default ShareModal;
+export default ShareModal

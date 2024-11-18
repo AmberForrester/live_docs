@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { ClientSideSuspense, RoomProvider } from "@liveblocks/react/suspense"
 import { Editor } from "@/components/editor/Editor"
@@ -129,4 +129,4 @@ const CollaborativeRoom = ({ roomId, roomMetadata, users, currentUserType }: Col
   )
 }
 
-export default CollaborativeRoom;
+export default CollaborativeRoom

@@ -25,6 +25,6 @@ const UserTypeSelector = ({ userType, setUserType, onClickHandler }: UserTypeSel
         </SelectContent>
     </Select>
   )
-};
+}
 
-export default UserTypeSelector;
+export default UserTypeSelector

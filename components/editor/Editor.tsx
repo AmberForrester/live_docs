@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import Theme from "./plugins/Theme";
 import ToolbarPlugin from "./plugins/ToolbarPlugin";
