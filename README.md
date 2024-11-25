@@ -28,8 +28,8 @@ Whether you're a writer, editor, or part of a collaborative team, LiveDocs empow
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#features">Features</a></li>
+    <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#steps-to-install">Steps to Install</a></li>
     <li><a href="#how-to-run-the-application">How to Run the Application</a></li>
