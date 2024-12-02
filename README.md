@@ -69,15 +69,15 @@ Whether you're a writer, editor, or part of a collaborative team, LiveDocs empow
 
 ## Installation
 
-### Prerequisite Tech Stacks
-- [NEXT.js 15](https://nextjs.org/)
+### Prerequisites
+- [NEXT.js](https://nextjs.org/)
 - [React](https://react.dev/)
 - [Shadcn/ui](https://ui.shadcn.com/)
 - [Node.js](https://nodejs.org/en)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Lexical Editor](https://lexical.dev/)
-- [Clerk](https://clerk.com/) - Create an account to receive your  credentials, and create a new project.
-- [Liveblocks](https://liveblocks.io/) - Create an account to receive your  credentials, and create a new project.
+- [Clerk](https://clerk.com/)
+- [Liveblocks](https://liveblocks.io/)
 
 
 
@@ -195,11 +195,15 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Please take some time to check out the links below! I found value in each and every one of them while creating this project, so my hope is that you will to!
 
 * [Google Docs Inspired project with Next.js 15](https://youtu.be/y5vE8y_f_OM?si=Ht2t95c5B0xghWUR) - Special thank you to _JavaScript Mastery_ for the tutorial!
+* [Next.js Deployment Documentation](https://nextjs.org/docs/deployment)
 * [ID Token Permissions with Next.js](https://liveblocks.io/docs/authentication/id-token/nextjs)
 * [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * [Basic Syntax: Markdown Guide](https://www.markdownguide.org/basic-syntax/#reference-style-links)
 * [Formatting Syntax: GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#animal-bug)
+
+> [!TIP]
+> Supercharge your Next.js deployment process with the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
