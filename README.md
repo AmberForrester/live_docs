@@ -12,7 +12,7 @@
 Whether you're a writer, editor, or part of a collaborative team, LiveDocs empowers you to create, share, and collaborate with ease!
 <br />
 
-<a href="https://livedocs-rn8malr40-amberforresters-projects.vercel.app/sign-in">LiveDocs Live Link</a>
+<a href="https://livedocs-livid.vercel.app/">LiveDocs Live Link</a>
 
 
 
