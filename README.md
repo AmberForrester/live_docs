@@ -70,7 +70,7 @@ Whether you're a writer, editor, or part of a collaborative team, LiveDocs empow
 ## Installation
 
 ### Prerequisites
-- [NEXT.js](https://nextjs.org/)
+- [Next.js](https://nextjs.org/)
 - [React](https://react.dev/)
 - [Shadcn/ui](https://ui.shadcn.com/)
 - [Node.js](https://nodejs.org/en)
