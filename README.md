@@ -43,17 +43,17 @@ Whether you're a writer, editor, or part of a collaborative team, LiveDocs empow
 
 
 ## Features
-- **Secure Authentication with Google:** Effortlessly sign in and out with Google using NextAuth, ensuring robust session management and top tier security for all users.
-- **Real-Time Collaborative Text Editor:** Experience seamless collaboration as multiple users edit the same document simultaneously with instant updates powered by Liveblocks.
-- **Comprehensive Data Management:**
-  - Create New Documents: Quickly start fresh with auto-saved documents, ready to access anytime.
-  - Delete New Documents: Maintain control by removing documents you own.
-  - Share with flexibility: Share documents via email or link with customizable view and edit permissions.
-  - Organized Document Listings: Access owned or shared documents view and edit permissions. 
-- **In-Context Commenting:** Add inline or general comments with threaded discussions, foserting effective collaboration and feedback.
-- **Live Collaboration Indicators:** See your team in action with real-time presence indicators, showing active collaborators directly within the editor.
-- **Intelligent Notifications:** Stay informed with instant updates on document shares, new comments, and collaborator activities, keeping everyone in sync.
-- **Fully Responsive Design:** Enjoy a seamless experience across devices, from desktop to mobile, ensuring productivity anywhere, anytime.
+- **Secure Authentication with Google:** Implemented user-friendly, secure sign-in and sign-out processes using NextAuth, ensuring robust session management and data privacy.
+- **Real-Time Collaborative Editing:** Engineered seamless, simultaneous document editing for multiple users with instant updates, leveraging Liveblocks for cutting-edge real-time synchronization.
+- **Comprehensive Document Management:** Developed intuitive features for document lifecycle management - 
+  - Create New Documents: Enabled quick setup with auto-saving for uninterrupted productivity.
+  - Delete Documents: Integrated secure deletion capabilities to maintain document control.
+  - Advanced Sharing Options: Empowered users to share documents with customizable view and edit permissions via email or direct link.
+  - Organized Document Listings: Designed clear navigation to access owned or shared documents efficiently.
+- **In-Context Commenting:** Facilitated threaded discussions through inline and general comments, enhancing collaboration and feedback workflows.
+- **Live Collaboration Indicators:** Visualized team activity with live presence indicators, offering real-time insights into collaborators' actions within the editor.
+- **Smart Notifications System:** Built a responsive notification system to inform users about document updates, comments, and collaborator activities, ensuring everyone stays aligned.
+- **Fully Responsive Design:** Created a fully responsive, adaptive interface with Tailwind CSS, enabling seamless usage across all devices, from desktop to mobile.
 
 <p align="right">(<a href="#readme-top">top of page</a>)</p>
 
